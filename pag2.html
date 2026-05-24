@@ -1,94 +1,349 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Louie</title>
-    <link rel="stylesheet" href="pag2.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+* {box-sizing: border-box;
+    margin: 0;
+    font-family: "Poppins", sans-serif;}
+header{
+    background-color: #f5f5f5;
+    width: 22%;
+    position: fixed;
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    z-index: 1;
+    padding: 40px 20px;
+}
+ul{
+    list-style: none;
+}
+#headerIcon::before{
+    padding: 50px;
+    background-image: url(imagens/author.jpg);
+    content: "";
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+header>ul{
+    padding: 0;
+}
+header>ul>li{
+    list-style: none;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+}
+header>ul>li>a{
+    color: #000000;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+header>ul>li>h1{
+    margin-bottom: 38px;
+    font-size: 24px;
+}
+header>ul>li>hr{
+    width: 50px;
+    text-align: center;
+    color: black;
+}
+.newsletter{
+    margin-top: 300px;
+    font-size: 18px;
+    align-self: flex-end;
+    font-weight: 600;
+}
+.divemail{
+    display: flex;
+    justify-content: center;
+}
+.enviaremail{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-color: white;
+    border: 1px solid #ece4d5;
+    height: 50px;
+    width: 60%;
+}
+.email{
+    border: none;
+    font-weight: 400;
+    font-size: 14px;
+}
+.enviaricon::before{
+    background-image:url(imagens/enviar.png);
+    content: "";
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 20px;
+    height: 20px;
+    left: 180px;
+    position: absolute;
+    top: 15px;
+}
+main{
+    width: 78%;
+    float: right;
+    display: flex;
+    flex-direction: column;
+}
+.sec1{
+    background-color: #ccb78f;
+    height: 22vh;
+    padding: 60px 27px;
+    display: flex;
+    justify-content: center;
+}
+.div1{
+    padding: 0 240px;
+    width: 80%;
+}
+.div1>div>h1{
+    font-size: 40px;
+}
+.div1>div>a{
+    color: #000;
+    opacity: 50%;
+    font-family: "Montserrat", sans-serif
+}
+.div1>div{
+    font-size: 13px;
+}
+.sec2{
+    width: 100%;
+    display: flex;
+    padding: 10px 0;
+}
+.sec2>div{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    flex-grow: 0;
+}
+.foto1{
+    background-image: url(imagens/image_1.jpg);
+    width: 450px;
+    height: 26vh;
+    background-size: cover;
+    background-position: center;
+    margin: 18px;
+}
+.foto2{
+    background-image: url(imagens/image_2.jpg);
+    width: 450px;
+    height: 26vh;
+    background-size: cover;
+    background-position: center;
+    margin: 18px;
+}
+.foto3{
+    background-image: url(imagens/image_3.jpg);
+    width: 450px;
+    height: 26vh;
+    background-size: cover;
+    background-position: center;
+    margin: 18px;
+}
+.foto4{
+    background-image: url(imagens/image_4.jpg);
+    width: 450px;
+    height: 26vh;
+    background-size: cover;
+    background-position: center;
+    margin: 18px;
+}
+.foto5{
+    background-image: url(imagens/image_5.jpg);
+    width: 450px;
+    height: 26vh;
+    background-size: cover;
+    background-position: center;
+    margin: 18px;
+}
+.foto6{
+    background-image: url(imagens/image_6.jpg);
+    width: 450px;
+    height: 26vh;
+    background-size: cover;
+    background-position: center;
+    margin: 18px;
+}
+.foto7{
+    background-image: url(imagens/image_7.jpg);
+    width: 450px;
+    height: 26vh;
+    background-size: cover;
+    background-position: center;
+    margin: 18px;
+}
+.foto8{
+    background-image: url(imagens/image_8.jpg);
+    width: 450px;
+    height: 26vh;
+    background-size: cover;
+    background-position: center;
+    margin: 18px;
+}
+.foto9{
+    background-image: url(imagens/image_9.jpg);
+    width: 450px;
+    height: 26vh;
+    background-size: cover;
+    background-position: center;
+    margin: 18px;
+}
+.foto10{
+    background-image: url(imagens/image_10.jpg);
+    width: 450px;
+    height: 26vh;
+    background-size: cover;
+    background-position: center;
+    margin: 18px;
+}
+.foto11{
+    background-image: url(imagens/image_11.jpg);
+    width: 450px;
+    height: 26vh;
+    background-size: cover;
+    background-position: center;
+    margin: 18px;
+}
+.foto12{
+    background-image: url(imagens/image_12.jpg);
+    width: 450px;
+    height: 26vh;
+    background-size: cover;
+    background-position: center;
+    margin: 18px;
+}
 
-</head>
-<body>
-        <header>
-            <ul>
-                <div id="headerIcon"></div>
-                <li><h1>Louie Smith</h1></li>
-                <li><a href="index.html">Home</a><hr></li>
-                <li><a href="pag2.html">Collection</a></li>
-                <li><a href="pag3.html">About Me</a></li>
-                <li><a href="pag4.html">My Services</a></li>
-                <li><a href="pag5.html">Blog</a></li>
-                <li><a href="pag6.html">Contact</a></li>
-                <div class="newsletter">Newsletter</div>
-                <div class="divemail">
-                    <div class="enviaremail">
-                        <input type="email" class="email" placeholder="Enter Email Adress">
-                        <div class="enviaricon"></a></div>
-                        </div>
-                </div>
-            </ul>
-        </header>
-        <main>
-            <section class="sec1">
-                <div class="div1">
-                    <div><a href="">HOME</a> COLLECTION</div>
-                    <div><h1>My Collection</h1></div>
-                </div>
-            </section>
-            <section class="sec2">
-                <div>
-                    <div class="foto1"></div>
-                    <div class="foto2"></div>
-                    <div class="foto3"></div>
-                    <div class="foto4"></div>
-                    <div class="foto5"></div>
-                    <div class="foto6"></div>
-                    <div class="foto7"></div>
-                    <div class="foto8"></div>
-                    <div class="foto9"></div>
-                    <div class="foto10"></div>
-                    <div class="foto11"></div>
-                    <div class="foto12"></div>
-                </div>
-            </section>
-            <footer>
-                <section class="sec3">
-                    <div>
-                        <h3>RECENT PHOTOS</h3>
-                        <div class="galeria">
-                            <a href=""class="footerimg1"></a></li>
-                            <a href=""class="footerimg2"></a>
-                            <a href=""class="footerimg3"></a>
-                            <a href=""class="footerimg4"></a>
-                            <a href="" class="footerimg5"></a>
-                            <a href="" class="footerimg6"></a>    
-                        </div>
-                    </div>
-                    <div>
-                        <h3>ARCHIVES</h3>
-                        <ul>
-                            <li><a href="">November 2018<span>(105)</span></a><hr></li>
-                            <li><a href="">October 2018<span>(212)</span></a> <hr></li>
-                            <li><a href="">September 2018<span>(150)</span></a> <hr></li>
-                            <li><a href="">August 2018<span>(100)</span></a> <hr></li>
-                            <li><a href="">July 2018<span>(200)</span></a> <hr></li>
-                        </ul>
-                        </div>
-                        <div>
-                            <h3>HAVE A QUESTIONS?</h3>
-                            <ul>
-                                <li><span class="mapsicon"></span>203 Fake St. Mountain View, San <br> Francisco, California, USA</li>
-                                <li><span class="telefoneicon"></span>+2 392 3929 210</li>
-                                <li><span class="emailicon"></span>info@yourdomain.com</li>
-                            </ul>
-                        </div> 
-                </section>
-            </footer>
-        </main>
-</body>
-</html>
+footer{
+    width: 100%;
+    float: right;
+    padding: 84px 0;
+    background-color: #242423;
+    color:#bfbfbf;
+}
+.sec3{
+    display: flex;
+    justify-content:space-between;
+    align-content: flex-start;
+    margin: 0 80px;
+    padding: 0 48px;
+}
+
+footer>section>div{
+    display: flex;
+    float: right;
+    flex-flow: column;
+    width: 100%;
+    padding: 0 40px;
+}
+footer>section>div>h3{
+    margin-bottom: 30px;
+    color: white;
+}
+.galeria{
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+}
+.footerimg1{
+    width: 100px;
+    height: 10vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url(/imagens/image_1.jpg);
+}
+.footerimg2{
+    width: 100px;
+    height: 10vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url(/imagens/image_2.jpg);
+}
+.footerimg3{
+    width: 100px;
+    height: 10vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url(/imagens/image_3.jpg);
+}
+.footerimg4{
+    width: 100px;
+    height: 10vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url(/imagens/image_4.jpg);
+}
+.footerimg5{
+    width: 100px;
+    height: 10vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url(/imagens/image_5.jpg);
+}
+.footerimg6{
+    width: 100px;
+    height: 10vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url(imagens/image_6.jpg);
+}
+footer>section>div>ul>li>a{
+    color: #bfbfbf;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    position: relative;
+    width: 100%;
+    display: flex;
+}
+footer>section>div>ul>li>a>span{
+    text-align: right;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+footer>section>div>ul{
+    padding: 0%;
+}
+.mapsicon::before{
+    background-image:url(imagens/pino-de-localizacao.png);
+    content: "";
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 20px;
+    height: 20px;
+}
+.telefoneicon::before{
+    background-image:url(imagens/silhueta-de-alca-de-telefone.png);
+    content: "";
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 15px;
+    height: 15px;
+}
+.emailicon::before{
+    background-image:url(imagens/e-mail.png);
+    content: "";
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 15px;
+    height: 15px;
+}
