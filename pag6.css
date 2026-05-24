@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Louie</title>
+    <link rel="stylesheet" href="pag2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+        <header>
+            <ul>
+                <div id="headerIcon"></div>
+                <li><h1>Louie Smith</h1></li>
+                <li><a href="index.html">Home</a><hr></li>
+                <li><a href="pag2.html">Collection</a></li>
+                <li><a href="pag3.html">About Me</a></li>
+                <li><a href="pag4.html">My Services</a></li>
+                <li><a href="pag5.html">Blog</a></li>
+                <li><a href="pag6.html">Contact</a></li>
+                <div class="newsletter">Newsletter</div>
+                <div class="divemail">
+                    <div class="enviaremail">
+                        <input type="email" class="email" placeholder="Enter Email Adress">
+                        <div class="enviaricon"></a></div>
+                        </div>
+                </div>
+            </ul>
+        </header>
+        <main>
+            <section class="sec1">
+                <div class="div1">
+                    <div><a href="">HOME</a> COLLECTION</div>
+                    <div><h1>My Collection</h1></div>
+                </div>
+            </section>
+            <section class="sec2">
+                <div>
+                    <div class="foto1"><h2>Pounds Of Equipment</h2> <br>
+                        A small river named Duden flows by their place and supplies.</div>
+                    <div class="foto2"><h2>Photo Print</h2> <br>
+                        A small river named Duden flows by their place and supplies.
+                        
+                        </div>
+                    <div class="foto3"><h2>Client Focus</h2> <br>
+                        A small river named Duden flows by their place and supplies.
+                        
+                        </div>
+                    <div class="foto4"><h2>Studio Sessions</h2> <br>
+                        A small river named Duden flows by their place and supplies.
+                        
+                        </div>
+                    <div class="foto5"><h2>Polaroid Pictures</h2> <br>
+                        A small river named Duden flows by their place and supplies.
+                        
+                        </div>
+                    <div class="foto6"><h2>Old Fill Roll</h2>
+                        A small river named Duden flows by their place and supplies.</div>
+                </div>
+            </section>
+            <footer>
+                <section class="sec3">
+                    <div>
+                        <h3>RECENT PHOTOS</h3>
+                        <div class="galeria">
+                            <a href=""class="footerimg1"></a></li>
+                            <a href=""class="footerimg2"></a>
+                            <a href=""class="footerimg3"></a>
+                            <a href=""class="footerimg4"></a>
+                            <a href="" class="footerimg5"></a>
+                            <a href="" class="footerimg6"></a>    
+                        </div>
+                    </div>
+                    <div>
+                        <h3>ARCHIVES</h3>
+                        <ul>
+                            <li><a href="">November 2018<span>(105)</span></a><hr></li>
+                            <li><a href="">October 2018<span>(212)</span></a> <hr></li>
+                            <li><a href="">September 2018<span>(150)</span></a> <hr></li>
+                            <li><a href="">August 2018<span>(100)</span></a> <hr></li>
+                            <li><a href="">July 2018<span>(200)</span></a> <hr></li>
+                        </ul>
+                        </div>
+                        <div>
+                            <h3>HAVE A QUESTIONS?</h3>
+                            <ul>
+                                <li><span class="mapsicon"></span>203 Fake St. Mountain View, San <br> Francisco, California, USA</li>
+                                <li><span class="telefoneicon"></span>+2 392 3929 210</li>
+                                <li><span class="emailicon"></span>info@yourdomain.com</li>
+                            </ul>
+                        </div> 
+                </section>
+            </footer>
+        </main>
+</body>
+</html>

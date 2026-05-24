@@ -1,0 +1,313 @@
+* {box-sizing: border-box;
+    margin: 0;
+    font-family: "Poppins", sans-serif;}
+header{
+    background-color: #f5f5f5;
+    width: 22%;
+    position: fixed;
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    z-index: 1;
+    padding: 40px 20px;
+}
+ul{
+    list-style: none;
+}
+#headerIcon::before{
+    padding: 50px;
+    background-image: url(imagens/author.jpg);
+    content: "";
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+header>ul{
+    padding: 0;
+}
+header>ul>li{
+    list-style: none;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+}
+header>ul>li>a{
+    color: #000000;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+header>ul>li>h1{
+    margin-bottom: 38px;
+    font-size: 24px;
+}
+header>ul>li>hr{
+    width: 50px;
+    text-align: center;
+    color: black;
+}
+.newsletter{
+    margin-top: 300px;
+    font-size: 18px;
+    align-self: flex-end;
+    font-weight: 600;
+}
+.divemail{
+    display: flex;
+    justify-content: center;
+}
+.enviaremail{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-color: white;
+    border: 1px solid #ece4d5;
+    height: 50px;
+    width: 60%;
+}
+.email{
+    border: none;
+    font-weight: 400;
+    font-size: 14px;
+}
+.enviaricon::before{
+    background-image:url(imagens/enviar.png);
+    content: "";
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 20px;
+    height: 20px;
+    left: 180px;
+    position: absolute;
+    top: 15px;
+}
+main{
+    width: 78%;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    background-color: #f8f9fa;
+}
+.sec1{
+    display: flex;
+}
+.img1{
+    height: 60vh;
+    width: auto;
+}
+.louie{
+    color: #ededed;
+    font-size: 70px;
+}
+main>.sec1>div>span{
+    color: #bfbfbf;
+}
+.hello{
+    font-size: 24px;
+}
+.louie2{
+    font-size: 40px;
+}
+main>.sec1>div>h1>span{
+    color: #ccb78f;
+}
+.txt{
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif
+}
+main>.sec1>div>.assinatura{
+    font-family: "Herr Von Muellerhoff";
+    font-size: 40px;
+    color: black;
+}
+main>.sec1>div>ul{
+    display: flex;
+}
+main>.sec1>div>ul>li>a>img{
+    width: 40px;
+    padding: 10px;
+}
+.sec2{
+    width: 100%;
+    padding: 75px 27px;
+    display: flex;
+    flex-flow: column;
+    background-color: #f8f9fa;
+}
+.sec2>h1{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin-bottom: 50px;
+}
+.sec2>div{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: 20vh;
+}
+.foto1{
+    background-image: url(/imagens/image_1.jpg);
+    width: 200px;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+}
+.foto2{
+    background-image: url(/imagens/image_2.jpg);
+    width: 200px;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+}
+.foto3{
+    background-image: url(/imagens/image_3.jpg);
+    width: 200px;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+}
+.foto4{
+    background-image: url(/imagens/image_4.jpg);
+    width: 200px;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+}
+.foto5{
+    background-image: url(/imagens/image_5.jpg);
+    width: 200px;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+}
+footer{
+    width: 78%;
+    float: right;
+    padding: 84px 0;
+    background-color: #242423;
+    color:#bfbfbf;
+}
+.sec3{
+    display: flex;
+    justify-content:space-between;
+    align-content: flex-start;
+    margin: 0 80px;
+    padding: 0 48px;
+}
+
+footer>section>div{
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    padding: 0 40px;
+}
+footer>section>div>h3{
+    margin-bottom: 30px;
+    color: white;
+}
+.galeria{
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+}
+.footerimg1{
+    width: 100px;
+    height: 10vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url(/imagens/image_1.jpg);
+}
+.footerimg2{
+    width: 100px;
+    height: 10vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url(/imagens/image_2.jpg);
+}
+.footerimg3{
+    width: 100px;
+    height: 10vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url(/imagens/image_3.jpg);
+}
+.footerimg4{
+    width: 100px;
+    height: 10vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url(/imagens/image_4.jpg);
+}
+.footerimg5{
+    width: 100px;
+    height: 10vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url(/imagens/image_5.jpg);
+}
+.footerimg6{
+    width: 100px;
+    height: 10vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url(imagens/image_6.jpg);
+}
+footer>section>div>ul>li>a{
+    color: #bfbfbf;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    position: relative;
+    width: 100%;
+    display: flex;
+}
+footer>section>div>ul>li>a>span{
+    text-align: right;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+footer>section>div>ul{
+    padding: 0%;
+}
+.mapsicon::before{
+    background-image:url(imagens/pino-de-localizacao.png);
+    content: "";
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 20px;
+    height: 20px;
+}
+.telefoneicon::before{
+    background-image:url(imagens/silhueta-de-alca-de-telefone.png);
+    content: "";
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 15px;
+    height: 15px;
+}
+.emailicon::before{
+    background-image:url(imagens/e-mail.png);
+    content: "";
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 15px;
+    height: 15px;
+}
